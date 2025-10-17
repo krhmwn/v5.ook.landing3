@@ -1,6 +1,9 @@
 @import "./common.scss";
 body {
-  text-transform: lowercase;
+    height: 100%;
+    max-width: 40rem;
+    margin: 0 auto;
+    text-transform: math-auto;
 }
 
 .category {
