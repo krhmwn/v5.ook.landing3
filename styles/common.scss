@@ -34,11 +34,12 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    height: 100%;
+    background-color: #f2f2f7;
 }
+
 body {
   font-family: "IBM Plex Sans", sans-serif;
-  color: #394655;
-  background: #fffef7;
 }
 
 .container {
@@ -53,8 +54,13 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: brown;
+    color: hsl(358, 77%, 63%);
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1em;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: hsl(358, 67%, 80%);
 
   &:hover {
     cursor: pointer;
