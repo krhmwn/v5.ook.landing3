@@ -30,6 +30,11 @@
   padding: 0;
 }
 
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
 body {
   font-family: "IBM Plex Sans", sans-serif;
   color: #394655;
@@ -39,7 +44,6 @@ body {
 .container {
   transform: rotate(-2deg);
   padding: 0 10%;
-  margin: 40px 32%;
   blockquote {
     margin: 16px 0;
     padding: 0 1em;
