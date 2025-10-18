@@ -1,10 +1,25 @@
 @import "./common.scss";
 body {
     height: 100%;
-    max-width: 40rem;
+    max-width: 45rem;
     margin: 0 auto;
     text-transform: math-auto;
 }
+main {
+    height: 100%;
+    margin-top: -2%;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
 
 .category {
   margin-top: 25px;
