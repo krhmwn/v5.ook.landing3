@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Ook Rahmawan" />
+	<meta name="author" content="Ook Rahmawan" />
+    <meta name="description" content="Ook Rahmawan" />
     <title>{{ title }}</title>
+	<link rel="icon" type="image/x-icon" href=".assets/images/logo/favicon.ico">
     <link rel="stylesheet" href="./styles/homepage.css" />
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
+	
   </head>
   <body>
 <main>
     <div class="container">
       {{ content }}
-      <h2 class="category">Posts</h2>
+      <h2 class="category">Posts</h2>S
       <ul class="posts">
         {% for post in collections.posts reversed %}
         <li class="post">
