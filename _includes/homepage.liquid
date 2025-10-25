@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="author" content="Ook Rahmawan">
     <meta name="description" content="Ook Rahmawan">
+	<meta name="theme-color" content="#e9585d">
     <title>{{ title }}</title>
-	<link rel="icon" type="image/x-icon" href="../../assets/logo/favicon.ico">
+	<link rel="apple-touch-icon" href="./assets/logo/apple-touch-icon.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/logo/favicon.ico">
     <link rel="stylesheet" href="./styles/homepage.css">
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}">
 	
@@ -16,7 +18,7 @@
 <main>
     <div class="container">
       {{ content }}
-      <h2 class="category">Posts</h2>S
+      <h2 class="category">Posts</h2>
       <ul class="posts">
         {% for post in collections.posts reversed %}
         <li class="post">
