@@ -30,6 +30,9 @@ main {
   list-style: none;
   display: inline-flex;
   place-items: flex-start;
+  :first-child {
+  padding-right: 15px;
+  }
 }
 
 
