@@ -26,6 +26,13 @@ main {
   margin-bottom: 10px;
 }
 
+.intro {
+  list-style: none;
+  display: inline-flex;
+  place-items: flex-start;
+}
+
+
 .posts {
   list-style: none;
   .post {
